@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.title {
+  margin-bottom: 20px;
+  font-size: 1.5em;
+} 
+
+.box {
+  width: 800px;
+  min-height: 42px; 
+  max-height: 250px;   
+  border: 1px solid #000;
+  overflow: auto;  
+  box-sizing: border-box;  
+}
